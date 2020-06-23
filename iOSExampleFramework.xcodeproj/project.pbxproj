@@ -10,6 +10,8 @@
 		270B9F3224A214D200C076BB /* iOSExampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B9F2824A214D200C076BB /* iOSExampleFramework.framework */; };
 		270B9F3724A214D200C076BB /* iOSExampleFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B9F3624A214D200C076BB /* iOSExampleFrameworkTests.m */; };
 		270B9F3924A214D200C076BB /* iOSExampleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B9F2B24A214D200C076BB /* iOSExampleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270B9F4424A2156400C076BB /* GTFrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B9F4224A2156400C076BB /* GTFrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270B9F4524A2156400C076BB /* GTFrameworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B9F4324A2156400C076BB /* GTFrameworkTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		270B9F3124A214D200C076BB /* iOSExampleFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExampleFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270B9F3624A214D200C076BB /* iOSExampleFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSExampleFrameworkTests.m; sourceTree = "<group>"; };
 		270B9F3824A214D200C076BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B9F4224A2156400C076BB /* GTFrameworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTFrameworkTest.h; sourceTree = "<group>"; };
+		270B9F4324A2156400C076BB /* GTFrameworkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTFrameworkTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				270B9F2B24A214D200C076BB /* iOSExampleFramework.h */,
 				270B9F2C24A214D200C076BB /* Info.plist */,
+				270B9F4224A2156400C076BB /* GTFrameworkTest.h */,
+				270B9F4324A2156400C076BB /* GTFrameworkTest.m */,
 			);
 			path = iOSExampleFramework;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B9F4424A2156400C076BB /* GTFrameworkTest.h in Headers */,
 				270B9F3924A214D200C076BB /* iOSExampleFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B9F4524A2156400C076BB /* GTFrameworkTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
